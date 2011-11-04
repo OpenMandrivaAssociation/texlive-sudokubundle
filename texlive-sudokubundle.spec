@@ -58,6 +58,7 @@ prepared puzzle files.
 #- source
 %doc %{_texmfdistdir}/source/latex/sudokubundle/sudokubundle.dtx
 %doc %{_texmfdistdir}/source/latex/sudokubundle/sudokubundle.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +69,5 @@ prepared puzzle files.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
