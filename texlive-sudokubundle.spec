@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-sudokubundle
 Version:	1.0a
-Release:	4
+Release:	5
 Summary:	A set of sudoku-related packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sudokubundle
