@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A set of sudoku-related packages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sudokubundle
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sudokubundle
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sudokubundle.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sudokubundle.doc.r%{version}.tar.xz
